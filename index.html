@@ -1,0 +1,194 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+<style>
+
+.even,
+.odd {
+   display:inline-block;
+   float:left;
+   text-align: center;
+   position: relative;
+   /*font-family: 'Handlee', cursive;*/
+   color: indigo; /*#f5c927;*/
+}
+.odd{
+    -webkit-animation: floatBubble 2s infinite;
+    -webkit-animation-direction:alternate;
+}
+.even{
+    -webkit-animation: floatBubble 3s infinite;
+    -webkit-animation-direction:alternate;
+}
+
+@-webkit-keyframes floatBubble{
+ from{
+        top:290px;
+        -webkit-animation-timing-function: ease-in;
+
+   }
+
+
+   to {
+      top: 520px;
+      -webkit-animation-timing-function: ease-out;
+   }
+
+
+}
+body{
+    background-image: url('c2.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 45%;
+    height: 100%;
+    width: 100%; 
+    overflow: hidden;
+}
+.alpha{
+  font-size: 69px;
+}
+.addspace{
+  margin-right:20px; 
+}
+
+.wrapper{
+  float: right;
+  margin-right: 18px;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 768px){
+  .wrapper{
+    float: left;
+    margin-right: 0px;
+    margin-left: 10px;
+    opacity: 1;
+  }
+  body{
+    background-image: url('c1.jpg');
+    background-position: 29% 45%;
+    font-weight: bolder;
+  }
+  .alpha{
+    font-size: 34px;
+  }
+  .addspace{
+    margin-right:11px; 
+  }
+  @-webkit-keyframes floatBubble{
+    from{
+        top:0px;
+        -webkit-animation-timing-function: ease-in;
+
+    }
+
+
+    to {
+      top: 180px;
+      -webkit-animation-timing-function: ease-out;
+    }
+
+
+  }
+
+  .even, .odd {
+    color: #d95cf7;
+  }
+  /*.1{
+    color:  red;
+  }
+  .3{
+    color:  blue;
+  }
+  .5{
+    color:  green;
+  }
+  .6{
+    color:  yellow;
+  }
+  .7{
+    color:  orange;
+  }
+  .9{
+    color:  white;
+  }
+  .11{
+    color:  indigo;
+  }
+  .13{
+    color:  pink;
+  }*/
+}
+@media screen and (max-width: 320px){
+  .alpha{
+    font-size: 25px;
+  }
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="1 odd">
+    <span class="alpha">H</span>
+</div>
+
+<div class="2 even">
+    <span class="alpha">A</span>
+</div>
+
+<div class="3 odd">
+    <span class="alpha">P</span>
+</div>
+
+<div class="4 even">
+    <span class="alpha">P</span>
+</div>
+
+<div class="5 addspace odd">
+    <span class="alpha">Y</span>
+</div>
+
+<div class="6 even">
+    <span class="alpha">B</span>
+</div>
+
+<div class="7 odd">
+    <span class="alpha">D</span>
+</div>
+
+<div class="8 even">
+    <span class="alpha">A</span>
+</div>
+
+<div class="9 addspace odd">
+    <span class="alpha">Y</span>
+</div>
+
+<div class="10 even">
+    <span class="alpha">A</span>
+</div>
+
+<div class="11 odd">
+    <span class="alpha">D</span>
+</div>
+
+<div class="12 even">
+    <span class="alpha">I</span>
+</div>
+
+<div class="13 odd">
+    <span class="alpha">T</span>
+</div>
+
+<div class="14 even">
+    <span class="alpha">Y</span>
+</div>
+
+<div class="15 odd">
+    <span class="alpha">A</span>
+</div>
+</div>
+</body>
+</html>
